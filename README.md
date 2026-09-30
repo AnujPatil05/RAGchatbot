@@ -46,8 +46,8 @@ graph TD
 
 Installation & Environment Setup:
 
-git clone https://github.com/AnujPatil05/RAGchatbotgit
-
+```bash
+git clone https://github.com/AnujPatil05/RAGchatbot
 cd appening-agentic-rag
 
 Create virtual environment:
@@ -65,3 +65,4 @@ python -m src.ingestion
 python -m uvicorn main:app --reload
 
 streamlit run app.py
+```
