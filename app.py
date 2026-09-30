@@ -9,7 +9,7 @@ st.caption("Powered by LangGraph, Pinecone, and strictly grounded on the Konverg
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-# Display conversation
+
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])

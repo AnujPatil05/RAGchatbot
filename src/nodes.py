@@ -11,10 +11,8 @@ INDEX_NAME = "agentic-ai-384"
 pc = Pinecone(api_key=PINECONE_API_KEY)
 index = pc.Index(INDEX_NAME)
 
-# Lightweight ONNX local embedding (384 dimensions)
 embeddings = FastEmbedEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
-# Fast, free cloud LLM via Groq
 llm = ChatGroq(
     model_name="openai/gpt-oss-20b",
     groq_api_key=os.getenv("GROQ_API_KEY"),
