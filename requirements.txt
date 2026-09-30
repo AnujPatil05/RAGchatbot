@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+streamlit
+langgraph
+langchain
+langchain-core
+langchain-community
+langchain-groq
+groq
+fastembed
+pinecone-client
+pypdf
+python-dotenv
+pydantic
+requests
+fonttools

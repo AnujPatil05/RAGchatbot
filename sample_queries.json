@@ -1,0 +1,26 @@
+[
+  {
+    "query": "What is the primary difference between RPA and Agentic AI?",
+    "description": "Tests conceptual differentiation between static automation and adaptive decision-making."
+  },
+  {
+    "query": "What are Foundational Agents and Workflow Agents in enterprise architectures?",
+    "description": "Tests retrieval of architectural classifications defined in the document."
+  },
+  {
+    "query": "What are the four core components of an Agentic AI system described in the document?",
+    "description": "Verifies extraction of key agent building blocks: Perception, Planning, Action, and Memory."
+  },
+  {
+    "query": "How does the eBook describe the progression from assisted intelligence to autonomous agents?",
+    "description": "Tests understanding of the graduated spectrum of autonomy levels."
+  },
+  {
+    "query": "What was the actor model introduced by Carl Hewitt in the context of agent systems?",
+    "description": "Tests retrieval of historical computational roots cited in the text."
+  },
+  {
+    "query": "How do you bake sourdough bread at home?",
+    "description": "Negative control query to verify strict out-of-domain rejection and zero hallucination."
+  }
+]
